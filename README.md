@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![n8n](https://img.shields.io/badge/n8n-workflow-orange)](https://n8n.io)
 
-![Workflow Screenshot](media/workflow-screenshot.png)
+![Workflow Screenshot](media/workflow-screenshot-oeh.png)
 
 ---
 
