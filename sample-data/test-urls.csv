@@ -1,0 +1,4 @@
+URL,Category,Expected-Emails
+https://example.com/contact,Contact Page,2-3
+https://example.org/about,About Page,1-2
+https://example.net/team,Team Page,5-10
