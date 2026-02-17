@@ -206,7 +206,7 @@ https://example.com/contact,2
 https://example.org/team,5
 ```
 
-**`sample-data/file.csv`**
+**`sample-data/harvested-emails-sample.csv`**
 ```csv
 Email,Domain,Source-URL,Date-Found
 contact@example.com,example.com,https://example.com/contact,2026-01-19
@@ -332,10 +332,10 @@ console.log('Page HTML length:', html.length);
 ### Secure Storage
 ```bash
 # Encrypt CSV output:
-gpg --encrypt --recipient you@example.com file.csv
+gpg --encrypt --recipient you@example.com harvested-emails-sample.csv
 
 # Set restrictive permissions:
-chmod 600 file.csv
+chmod 600 harvested-emails-sample.csv
 
 # Store in secure location:
 mv harvested-emails.csv /secure/encrypted/storage/
