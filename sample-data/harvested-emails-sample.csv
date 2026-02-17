@@ -1,0 +1,7 @@
+Email,Domain,Source-URL,Date-Found,Page-Title
+contact@acmecorp.com,acmecorp.com,https://acmecorp.com/contact,2026-01-19,Contact Us - ACME Corp
+info@acmecorp.com,acmecorp.com,https://acmecorp.com/contact,2026-01-19,Contact Us - ACME Corp
+john.smith@acmecorp.com,acmecorp.com,https://acmecorp.com/team,2026-01-19,Our Team - ACME Corp
+jane.doe@acmecorp.com,acmecorp.com,https://acmecorp.com/team,2026-01-19,Our Team - ACME Corp
+support@techstartup.io,techstartup.io,https://techstartup.io/about,2026-01-19,About Us - TechStartup
+ceo@techstartup.io,techstartup.io,https://techstartup.io/leadership,2026-01-19,Leadership - TechStartup
