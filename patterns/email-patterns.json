@@ -1,0 +1,32 @@
+{
+  "patterns": [
+    {
+      "name": "Standard Email",
+      "regex": "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b",
+      "description": "RFC 5322 compliant email addresses"
+    },
+    {
+      "name": "De-obfuscator (Comprehensive)",
+      "regex": "\\s*(\\(at\\)|\\[at\\]|\\sat\\s)\\s*",
+      "description": "Matches various (at) obfuscations",
+      "transform": "replace with '@'"
+    },
+    {
+      "name": "De-obfuscator (Dot)",
+      "regex": "\\s*(\\(dot\\)|\\[dot\\]|\\sdot\\s)\\s*",
+      "description": "Matches various (dot) obfuscations",
+      "transform": "replace with '.'"
+    }
+  ],
+  "excludePatterns": [
+    "example@example.com",
+    "test@test.com",
+    "admin@localhost",
+    "noreply@",
+    "donotreply@",
+    "@example.com",
+    "@example.org",
+    "@sentry.io",
+    "@w3.org"
+  ]
+}
